@@ -8,14 +8,20 @@
     /* Navigation styling */
     nav {
         background-color: steelblue;
-        padding: 10px;
+        padding: 1 rem;
+        display: flex;
+        justify-content: apace-evenly;
+        align-items: center;
     }
     
     nav a {
         color: white;
         display: block;
-        padding: 20px;
-    }
+        padding: 0.5rem;
+        text-decoration: none;
+        font decorantion: none
+        font: size 1.2rem;
+    font-size    }
     
     /* Heading style */
     h1 {
@@ -68,4 +74,8 @@
         margin-top: 15px;
         border-top: 1px solid #546;
         text-align: center;
+    }
+    header, footer {
+        max-width: 840px;
+        margin: 0 autos;
     }
