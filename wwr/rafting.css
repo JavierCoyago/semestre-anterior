@@ -1,0 +1,103 @@
+/* rafting.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Logo and navigation */
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* History section styles */
+  #history {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  #history h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #history p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Adventures section styles */
+  #adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    margin-right: 10px;
+  }
+  

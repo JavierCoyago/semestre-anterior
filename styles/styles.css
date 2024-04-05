@@ -1,0 +1,71 @@
+* {/* Reset default margin and padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Navigation styling */
+    nav {
+        background-color: steelblue;
+        padding: 10px;
+    }
+    
+    nav a {
+        color: white;
+        display: block;
+        padding: 20px;
+    }
+    
+    /* Heading style */
+    h1 {
+        color: steelblue;
+    }
+    
+    /* Image styling */
+    img {
+        width: 150px;
+        height: auto;
+        border: 1px solid steelblue;
+        padding: 2px;
+        box-shadow: 0 0 30px gray;
+    }
+    
+    /* Paragraph style */
+    p {
+        padding: 0;
+    }
+    
+    /* Aside (sidebar) styling */
+    aside {
+        width: 20em;
+        margin: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        background-color: #333;
+        text-align: center;
+    }
+    
+    aside img {
+        width: 200px;
+        height: auto;
+    }
+
+    aside h2 {
+        position: absolute;
+        top: 47px;
+        left: 150px;
+    }
+    
+    /* Main content image styling */
+    main img {
+        width: 150px;
+        height: auto;
+    }
+    
+    /* Footer styling */
+    footer {
+        margin-top: 15px;
+        border-top: 1px solid #546;
+        text-align: center;
+    }
