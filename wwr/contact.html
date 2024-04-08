@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="contact.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact Us - White Water Rafting</title>
+    <title>Contact Us - Adventure Rafting Co.</title>
+    <meta name="description" content="Get in touch with Adventure Rafting Co. for inquiries, reservations, and suggestions. Our friendly team is here to assist you!">
+    <!-- Add your other meta tags, stylesheets, and scripts here -->
 </head>
 <body>
     <header>
-       
-        <img src="images/logo.png" alt="White Water Rafting Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-            <a href="quiz.html">quiz_results</a>
-        </nav>
     </header>
-
+    <nav>
+        
+    </nav>
     <main>
-    
+        <h1>Contact Us</h1>
+        <p>If you have any questions, need assistance, or want to share your suggestions, feel free to reach out to us!</p>
+
+        <!-- Company Information -->
+        <section>
+            <h2>Company Information</h2>
+            <address> Victor Valencia street<br>
+                Quito, Ecuador<br>
+                Phone: +593 9840978631<br>
+                Email: <a href="mailto:info@adventurerafting.com">info@adventurerafting.com</a>
+            </address>
+            <!-- Embedded Google Map (replace with your actual map iframe) -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-78.559721!3d-0.287191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM3DCsDA0JzUwLjAiTiAxMjLCsDEwJzA0LjAiVw!5e0!3m2!1sen!2sus!4v1612345678901!5m2!1sen!2sus&key=YOUR_API_KEY" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section>
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/Emily-photo.jpeg" alt="Emily Rivers">
+                <figcaption>Emily Rivers, Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/sara-photo.jpg" alt="Emily Rivers">
+                <figcaption>Emily Rivers, Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Logan-photo.jpg" alt="Emily Rivers">
+                <figcaption>Emily Rivers, Rafting Guide</figcaption>
+            </figure
+        </section>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Send Us a Message</h2>
+            <form action="process_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label><input type="radio" name="purpose" value="General Inquiry"> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
 
+    <!-- Footer (same as other pages) -->
     <footer>
-        <p>© 2024 White Water Rafting | Developed by Javier Coyago</p>
-        <a href="#"><img src="iconofacebook.png" alt="Facebook"></a>
-        <a href="#"><img src="iconoinstagram.png" alt="Twitter"></a>
-        <a href="#"><img src="iconox.png" alt="Instagram"></a>
+        <!-- Your footer content here -->
     </footer>
 </body>
 </html>
