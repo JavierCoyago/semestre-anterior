@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Colors and gradients */
 body {
   background-color: #fff;
@@ -70,3 +71,65 @@ form button {
     max-width: 100%;
   }
 }
+=======
+/* Colores y gradientes */
+body {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to right, #003973, #e5e5e5);
+    color: #fff;
+  }
+  
+  footer {
+    background: linear-gradient(to right, #0073b7, #e5e5e5);
+    color: #333;
+  }
+  
+  section {
+    border: 1px solid #ccc;
+    background: linear-gradient(to right, #0073b7, #e5e5e5);
+  }
+  
+  section:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  section h2 {
+    color: #003973;
+  }
+  
+  img {
+    border: 4px solid #ccc;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  form {
+    background-color: #fff;
+  }
+  
+  form label {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  form input, form textarea {
+    background-color: #e5e5e5;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #003973;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+>>>>>>> 6a8b6afe87fda03f0167597af2f96c3eae5c3729
