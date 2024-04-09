@@ -1,6 +1,20 @@
 /* rafting.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
 
+  --heading-font: roboto, serif;
+  --paragraph-font: arial, serif;
+
+  --nav-background-color: #396e94;
+  --nav-link-color: #a43312;
+  --nav-hover-link-color: #381d2a;
+  --nav-hover-background-color: #e7c24f;
+
+}
 
 /* Reset some default styles */
 * {
@@ -20,7 +34,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--primary-color);
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
@@ -89,7 +103,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #333;
+  background-color: var(--primary-color);
   color: #fff;
   padding: 10px;
 }

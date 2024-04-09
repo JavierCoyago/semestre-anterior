@@ -1,4 +1,25 @@
 /* Basic styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+
+  --heading-font: roboto, serif;
+  --paragraph-font: arial, serif;
+
+  --nav-background-color: #396e94;
+  --nav-link-color: #a43312;
+  --nav-hover-link-color: #381d2a;
+  --nav-hover-background-color: #e7c24f;
+
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
