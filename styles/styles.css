@@ -42,12 +42,9 @@ h1 {
 }
 
 /* Imágenes */
-img {
-    max-width: 200%;
+main img {
+    width: 150px;
     height: auto;
-    display: block;
-    margin: 0 auto;
-    float: left;
 }
 
 /* Barra lateral */
@@ -66,4 +63,8 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+p {
+    padding: 0;
 }
